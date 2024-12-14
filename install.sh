@@ -2,13 +2,7 @@
 #install pack
 
 sudo pacman -Syu
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ../
-sudo pacman -Rs go
-yay -S hyprland-git bluetui
-sudo pacman -S hyprpaper wofi waybar kitty tela-circle-icon-theme-black ttf-nerd-fonts-symbols-common  ttf-nerd-fonts-symbols ttf-font-awesome ttf-droid noto-fonts nano neofetch zsh
+sudo pacman -S hyprland hyprpaper wofi waybar kitty tela-circle-icon-theme-black ttf-nerd-fonts-symbols-common  ttf-nerd-fonts-symbols ttf-font-awesome ttf-droid noto-fonts nano neofetch zsh
 sudo pacman -Scc
 
 #copy
